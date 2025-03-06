@@ -1,0 +1,5 @@
+kafka:
+  topic: midas.transactions
+  consumer:
+    group-id: midas-core-group
+    auto-offset-reset: earliest
